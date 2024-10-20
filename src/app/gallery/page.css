@@ -1,0 +1,48 @@
+.text{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(18, 18, 148);
+    margin-top: 25px;
+}
+p{
+    text-align: center;
+}
+.container{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    margin-right: 30px;
+    height: 280px;
+    width: 180px;
+}
+#one{
+    background-image: url(https://img.freepik.com/free-photo/modern-skyscrapers-japan-business-district_23-2148836796.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid);
+    background-size: cover;
+}
+#two{
+    background-image: url(https://img.freepik.com/free-photo/view-building-architecture-london-city_23-2149437447.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid);
+    background-size: cover;
+}
+#three{
+    background-image: url(https://img.freepik.com/premium-photo/modern-apartment-buildings-midtown-manhattan-new-york-city-usa_1313853-69187.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid);
+    background-size: cover;
+}
+#four{
+    background-image: url(https://img.freepik.com/free-photo/low-angle-view-urban-buildings_23-2148287794.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid);
+    background-size: cover;
+}
+#five{
+    background-image: url(https://img.freepik.com/free-photo/close-up-modern-office-buildings-city_23-2148836805.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid);
+    background-size: cover;
+}
+
+@media (max-width:375px) {
+    p{
+        padding-left: 9px;
+        padding-right: 9px;
+        font-size: 16px;
+    }
+    
+}

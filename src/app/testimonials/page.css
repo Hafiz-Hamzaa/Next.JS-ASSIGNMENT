@@ -1,0 +1,92 @@
+.back-img{
+    background-image: url(https://img.freepik.com/premium-photo/glass-green-modern-cityscape_604472-174071.jpg?w=740);
+    background-size: cover;
+    height: 100vh;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-top: 15px;
+}
+p{
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+.cir{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    /* margin-right: 18px; */
+}
+#one{
+    background-image: url(https://img.freepik.com/premium-photo/young-handsome-man-wearing-casual-tshirt_1296789-2.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid);
+    background-size: cover;
+}
+#two{
+    background-image: url(https://img.freepik.com/premium-photo/gentleman-with-warm-smile-circular-frame-against-cloudy-sky-backdrop-generative-ai_437323-36717.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid);
+    background-size: cover;
+}
+#three{
+    background-image: url(https://img.freepik.com/premium-photo/business-victory-giving-thumbsup_1273586-8078.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid);
+    background-size: cover;
+}
+.type{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+}
+
+@media (width:375px) {
+    h2{
+        font-size: 25px;
+    }
+    p{
+        font-size: 13px;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    #one{
+        margin-bottom: 180px;
+    }
+    #two{
+        margin-bottom: 180px;
+    }
+    #three{
+        margin-bottom: 180px;
+    }
+    
+}
+@media (width:390px){
+    .type{
+        font-size: 12px;
+    }
+    p{
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+}
+@media (width:412px) {
+    .type{
+        font-size: 12px;
+    }
+    
+}
+@media (width:414px) {
+    .type{
+        font-size: 12px;
+    }
+    
+}
+@media (widtH:540px) {
+    #one{
+        margin-bottom: 50%;
+    }
+    
+}

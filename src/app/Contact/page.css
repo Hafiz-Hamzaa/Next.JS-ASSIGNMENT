@@ -1,0 +1,113 @@
+.bg-image{
+    background-image: url(https://img.freepik.com/premium-photo/building-with-word-e-it_1249034-33349.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid);
+    background-size: cover;
+    height: 100vh;
+}
+.hg{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    margin-top: 30px;
+}
+p{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+form{
+    text-align: center;
+    margin-top: 45px;
+}
+input{
+    background-color: #E4E0E1;
+    border: 3px solid white;
+    width: 40vw;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+input:hover{
+    border: 3px solid blue;
+}
+.feed{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#txt{
+    background-color: #E4E0E1;
+    border: 3px solid white;
+    width: 40vw;
+    height: 200px;
+    border-radius: 5px;
+    text-align: left;
+}
+#txt:hover{
+    border: 3px solid blue;
+}
+#btn{
+    border: 4px solid ;
+    background-color:rgb(3, 3, 83);
+    color: white;
+}
+#btn:hover{
+    border: 3px solid rgba(173, 17, 173, 0.075);
+}
+
+@media (max-width:375px) {
+    .hg{
+        font-size: 30px;
+    }
+    input{
+        width: 60vw;
+        height: 25px;
+    }
+    #txt{
+        height: 55px;
+        width: 60vw;
+    }
+    #btn{
+        height: 36px;
+    }
+}
+
+@media (max-width:414px) {
+    .hg{
+        font-size: 30px;
+    }
+    input{
+        width: 60vw;
+        height: 25px;
+    }
+    #txt{
+        height: 55px;
+        width: 60vw;
+    }
+    #btn{
+        height: 36px;
+    }
+}
+
+@media (width:1024px) {
+    #txt{
+        height: 120px;
+    }
+    
+}
+
+@media (max-width:540px) {
+    .hg{
+        font-size: 30px;
+    }
+    input{
+        width: 60vw;
+        height: 25px;
+    }
+    #txt{
+        height: 55px;
+        width: 60vw;
+    }
+    #btn{
+        height: 36px;
+    }
+}

@@ -1,0 +1,28 @@
+.bg-img{
+    background-image: url(https://img.freepik.com/premium-photo/two-illuminated-skyscrapers-against-foggy-sky_925376-282688.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid); 
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    height: 100vh;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 270px;
+}
+.content{
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+}
+.textual{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.text{
+    color: gainsboro;
+}

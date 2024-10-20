@@ -1,0 +1,62 @@
+.nav-bar{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+.logo{
+    margin-left: 2em;
+    font-size: 20px;
+    font-weight: 700;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    color: gainsboro;
+    margin-right: 2em;
+    font-size: 18px;
+}
+.sci{
+    margin-right: 45px;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .nav-bar {
+      flex-direction: column;
+      height: auto;
+      padding: 1em;
+    }
+  
+    .logo {
+      margin-left: 0;
+      margin-bottom: 1em;
+    }
+  
+    .links {
+      flex-direction: column;
+      margin-right: 0;
+    }
+  
+    .sci {
+      margin-right: 0;
+      margin-bottom: 1em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .nav-bar {
+      padding: 0.5em;
+    }
+  
+    .logo {
+      font-size: 18px;
+    }
+  
+    .links {
+      font-size: 16px;
+    }
+  }
